@@ -6,11 +6,35 @@
 }
 
 body {
-    font-family: "Numans", sans-serif;
+    font-family: "Sora", sans-serif;
 }
 
 #navigation {
-    font-size: 1.3rem;
-    font-weight: 600;
-    font-family: "Fira Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.main-container {
+    background-color: #32936f;
+    height: 100vh;
+}
+
+.presentation {
+    padding: 4em;
+    color: #fffbdb;
+}
+
+.image-cropper {
+    min-width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 5px #fffbdb;
+}
+
+.rounded {
+    display: inline;
+    margin-left: -24%;
+    height: 100%;
+    width: auto;
 }
