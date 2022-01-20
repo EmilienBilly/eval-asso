@@ -20,15 +20,24 @@ body {
 }
 
 .presentation {
-    background-color: #157575;
+    background-color: #0a775f;
     color: #ffffff;
 }
 
 .txt-asso {
-    padding: 1em;
     line-height: 1.8;
     width: 80%;
     font-size: 20px;
+}
+
+.txt-deforestation {
+    line-height: 2;
+    font-size: 1.1em;
+    width: 90%;
+}
+
+.txt-chiffre {
+    font-size: 0.8em;
 }
 
 .rounded-img {
@@ -42,19 +51,28 @@ body {
 
 .box {
     height: 100%;
-    background-color: #ead7c7;
+    background-color: #0a775f;
+    color: #ffffff;
     font-size: 1em;
-    font-weight: 900;
+    font-weight: 600;
     border-radius: 5px;
-    box-shadow: 3px 3px 18px -3px rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 3px 3px 18px -3px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 3px 3px 18px -3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 7px 19px -12px rgb(0 0 0 / 45%);
 }
 
 .card_img {
     width: 150px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
+}
+
+.nbr-hectares {
+    border-top: solid 5px black;
+    border-bottom: solid 5px black;
+}
+
+.chiffre {
+    font-weight: 900;
+    font-size: 5em;
 }
 
 @media screen and (max-width: 500px) {
@@ -83,6 +101,27 @@ body {
 
     .txt-asso {
         justify-content: center;
+        text-align: center;
+    }
+
+    .txt-deforestation {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .nbr-hectares {
+        padding: 15px;
+        width: 50%;
+    }
+
+    .chiffre {
+        align-self: center;
+        font-size: 3em;
+    }
+
+    .txt-chiffre,
+    .txt-deforestation {
         text-align: center;
     }
 }
