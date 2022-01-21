@@ -75,7 +75,23 @@ body {
     font-size: 5em;
 }
 
-@media screen and (max-width: 500px) {
+.event {
+    width: 65%;
+    box-shadow: 0px 7px 19px -12px rgb(0 0 0 / 45%);
+}
+
+.img-event {
+    height: 500px;
+    object-fit: cover;
+}
+
+.btn {
+    background-color: #0a775f;
+    color: #ffffff;
+    box-shadow: 0px 7px 19px -12px rgb(0 0 0 / 45%);
+}
+
+@media screen and (max-width: 575px) {
     #container-txt-asso {
         display: flex;
         justify-content: center;
@@ -90,6 +106,10 @@ body {
     .rounded-img {
         width: 200px;
         height: 200px;
+    }
+
+    .container {
+        width: 90%;
     }
 }
 
@@ -106,6 +126,14 @@ body {
 
     .txt-deforestation {
         font-size: 1em;
+    }
+
+    .img-event {
+        height: 300px;
+    }
+
+    .event {
+        width: 90%;
     }
 }
 
