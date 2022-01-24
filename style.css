@@ -117,7 +117,8 @@ ul {
         font-size: 1.2em;
     }
 
-    .rounded-img {
+    .rounded-img,
+    .rounded-img-event {
         width: 200px;
         height: 200px;
     }
