@@ -35,10 +35,10 @@
                             <a class="nav-link" href="index.html"">Accueil</a>
                         </li>
                         <li class=" nav-item ms-5">
-                                <a class="nav-link active" href="event.html" aria-current="page">Événements</a>
+                                <a class="nav-link" href="event.html">Événements</a>
                         </li>
                         <li class="nav-item ms-5">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link active" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -46,36 +46,33 @@
     </nav>
     <!-- Contenu de la page -->
     <main>
-        <section class="container px-2">
+        <section class="container contact px-0 py-4">
             <div class="presentation rounded mb-4 p-4">
-                <p class="h2 text-center">Nos événements</p>
+                <p class="h2 text-center">Contactez-nous</p>
             </div>
-            <div class="card text-center mb-3">
-                <div class="card-body">
-                    <h3 class="card-title pb-4">Ateliers tri et recyclage</h3>
-                    <p class="card-text pb-4">Forestver propose plusieurs ateliers permettant d'en apprendre plus sur le
-                        tri et le recyclage des déchets. Ce sujet nous tiens particulièrement à coeur du fait de son
-                        impact direct sur l'environnement et donc naturellement sur les fôrets.</p>
-                    <img src="images/composteur.jpg" class="rounded-img-event" alt="...">
-                    <p class="card-text p-4">Il vous sera possible d'acheter des composteurs fabriqués à partir de
-                        palettes en bois inutilisées. Les fonds récoltés permettront à Forestver de planter de nouveaux
-                        arbres. <br>
-                        Un atelier vous permettra d'apprendre à trier vos déchets organiques et donc de réduire votre
-                        impact environnemental en les jetant dans les ordures ménagères. Vous y apprendrez à produire
-                        votre propre composte, utile pour votre jardin ou pour les producteurs locaux si vous n'avez pas
-                        la main verte.
+            <div class="card d-flex align-items-center card-contact">
+                <div class="border-bottom card-body w-75 d-flex flex-column justify-content-center align-items-center">
+                    <p class="card-text text-center pb-4">Si vous avez des questions ou si vous souhaitez participer à
+                        l'un de nos événements, n'hésitez pas à nous contacter, Forestver se fera un plaisir de vous
+                        répondre</p>
+                    <img src="images/contact.png" class="rounded-img-contact" alt="...">
+                    <p class="card-text text-center p-4">Par téléphone au : <br>
+                        00 00 00 00 00
                     </p>
-                    <img src="images/jardiner.jpg" class="rounded-img-event" alt="...">
-                    <h4 class="pt-4">Dates et lieux</h4>
-                    <ul class="card-text p-4">
-                        <li">Brissac-Loire-Aubance (49320)</li>
-                            <li>Lundi 24 janvier</li>
-                            <li>Vendredi 28 janvier</li>
-                            <li>Mercredi 16 février</li>
-                            <li>Mardi 22 février</li>
-                    </ul>
-                    <a href="contact.html" class="btn">Contactez-nous !</a>
                 </div>
+                <div class="card-body w-75">
+                    <p class="card-text mt-4 text-center">Ou bien par mail en remplissant le formulaire suivant </p>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Adresse E-mail</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="nom@exemple.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Votre message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+                <button class="btn btn-lg mb-4" id="submitButton" type="submit">Envoyer</button>
             </div>
         </section>
     </main>
