@@ -137,7 +137,7 @@ main {
     }
 
     .rounded-img,
-    .rounded-img-event, {
+    .rounded-img-event {
         width: 200px;
         height: 200px;
     }
